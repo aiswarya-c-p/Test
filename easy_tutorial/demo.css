@@ -1,0 +1,313 @@
+  * ,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color:#0f1d37;
+    transition: .2s linear;
+
+  }
+
+  body{
+    font-family: Nunito;
+    
+  }
+  
+  .easy-tutorial-logo{
+    padding-left: 160px;
+    padding-top: 16px;
+    width: 345px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 160px;
+    margin-top: -2px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 30px;
+    font-size: 17px;
+   
+  }
+  
+  nav ul li a{
+    color: rgb(90, 90, 90);
+    font-weight: 500;
+  }
+  nav ul li a:hover{
+    color:  #2196f3;
+    transition: color 0.15s;
+  }
+  
+  .home{
+    color: #2196f3;
+  }
+  .heading{
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    }
+
+    .main-content{
+      display: flex;
+      column-gap: 40px;
+      justify-content: space-between;
+      width: 82%;
+      margin-bottom: 150px;
+    }
+    .video-names{
+      margin-top: 200px;
+      
+    }
+    .sub-heading{
+      font-size: 40px;
+      font-weight: 760;
+      color: #FCFF97;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+    .video-names h2{
+      color: white;
+      margin-left: 50px;
+      font-size: 24px;
+      font-weight: 500;
+    
+    }
+    .video-class{
+      margin-top: 200px;
+      margin-left: 200px;
+    }
+    .enroll-button{
+      margin-top: 10px;
+      background-color: #EA4560;
+      border: none;
+      padding: 14px 30px;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      font-family: Nunito;
+      border-radius: 4px;
+    }
+
+
+
+  .container{
+   
+    padding: 15px 9%;
+    margin-bottom: 150px;
+    }
+
+  .container .box-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 30px;
+    
+    
+  }
+  .container .web-hosting{
+   color: white;
+  }
+  .container .box-container-second{
+    position: relative;
+    display: grid;
+    grid-template-columns: 298px 298px 298px;
+    
+    gap: 30px; 
+  }
+  
+  .recommend{
+    position: absolute;
+    background-color: #3575D3;;
+    left: 319.5px;
+    padding: 4px 12px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  
+  }
+  .cheap{
+    position: absolute;
+    background-color: #7C57F0;
+    color: white;
+    right: 185px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 4px 12px;
+  }
+  .container  .box img{
+    mix-blend-mode: multiply;
+     width: 200px;
+     display: block;
+     margin: auto;
+     padding-top: 1px;
+     background-color: white;
+     
+  }
+  .container  .box{
+    background: white;
+    height: 318px;
+    
+    text-align: left;
+    
+    padding: 34px 20px;
+
+  }
+  .container  .box p{
+    margin-top: 16px;
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    margin-left: 26px;
+    background-color: white;
+  }
+  .container  .box h2{
+    color: #EA4560;
+    font-size: 24px;
+    margin-bottom: 60px;
+    margin-left: 24px;
+    background-color: white;
+
+  }
+  .container  .box .button{
+    background-color: #EA4560;
+    border: none;
+    padding: 14px 46px;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    text-align: right;
+  }
+  .container .buttons{
+    display: grid;
+    grid-template-columns: 148.5px 148.5px;
+    margin-left: -19.5px;
+    
+    
+  }
+  .container .buttons .watch-button,
+  .container .buttons .visit-button{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    
+  }
+  .watch-button{
+    border: 2px #EA4560;
+    background-color: white;
+    color: #EA4560;
+    font-size: 16px;
+    border: 1px solid #EA4560;
+    margin-left: -1px;
+    
+
+  }
+  .visit-button{
+    background-color: #EA4560;
+    color: white;
+    font-size: 16px;
+  }
+   
+  .animation-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: -60px;
+  }
+    
+  .youtube-container{
+    padding: 15px 16%;
+    margin-bottom: 140px;
+  }
+  .youtube-container-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 110px;
+  }
+
+  .Disclaimer{
+    color: rgb(172, 170, 170);
+    font-size: 15.6px;
+    font-family: Nunito;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -20px;
+    margin-bottom: 80px;
+  }
+    
+  .footer-container{
+    width: 100%;
+    
+  }
+  .footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .footer-nav ul li a{
+    color:#54595F;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+   ;
+   transition: color 0.5s;
+   font-family: Nunito;
+ 
+
+  }
+  .footer-nav ul li a:hover{
+    color: rgb(68, 68, 68);
+  }
+  .footer-bottom{
+   
+    text-align: center;
+  }
+  .footer-bottom p{
+    color: #54595F;
+    font-family: Nunito;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 52px;
+  }
+  .dividor{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .dividor i{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 12px;
+    
+  }
+  .dividor i::after,
+  .dividor i::before{
+    content: "";
+    height: 0.8px;
+    width: 30px;
+    background-color: #EA4560;
+    display: block;
+    margin-left: -5px;
+   
+  }
+  
+  
+ 
+
+  
+  
+  
+  
