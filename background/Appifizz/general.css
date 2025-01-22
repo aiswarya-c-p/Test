@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+header{
+  background:#010425;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.container{
+  height: 70px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+nav ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+nav ul li{
+  font-family:Fjalla One;
+  font-size: 15.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: merivaregular,Arial, Helvetica, sans-serif;
+  transition: color 1s;
+  letter-spacing: 1.5px;
+  
+}
+.options{
+  margin-right: 20px;
+
+}
+.home-icon{
+  margin-right: -18px;
+}
+.news-room-icon{
+  margin-right: -18px;
+}
+.careers-icon{
+ margin-right: -18px;
+}
+.logo{
+  margin-left: 20px;
+  margin-top: 24px;
+  
+  
+}
+.logo-image{
+  width: 120px;
+  margin-bottom: 14px;
+}
+li:hover{
+  color: red;
+}
+.fas{
+  margin-left: 10px;
+}
+.sponsor{
+  display: flex;
+  
+}
+.banner{
+ 
+  height:855px;
+  width:1518px;
+}
+.banner img{
+max-width: 100%;
+ max-height: 100%;
+ 
+}
+.content{
+  background-color: black;
+  width: 50%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -2px;
+  
+}
+.appifizz-icon{
+  width: 200px;
+ margin-top: -5px;
+ transform: rotate(2.68rad);
+ animation:rotate 3s linear infinite ;
+  
+  }
+  @keyframes rotate{
+    from{
+      transfom :rotate(0deg)
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+.content img{
+  max-width: 100%;
+  max-height: 80%;
+  display: block;
+}
+
+.main-text{
+ font-size: 38px;
+ font-weight:bolder;
+ font-family: serif;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 370px;
+  line-height: 80px;
+  }
+.fizz{
+  padding-left: 100px;
+}
+.row{
+  display: flex;
+  
+}
+.about{
+  margin-left: 120px;
+  margin-top: 150px;
+}
+.about p{
+  font-family: "merivaregular",helvetica;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  margin-bottom: 26px;
+  
+  
+}
+.about p img{
+  margin-right:1px;
+  width: 32px;
+  margin-top: 12px;
+}
+
+.ad-image img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 50px;
+}
+.ad-image{
+  width: 1500px;
+}
+footer{
+  margin-bottom: 150px;
+}
+.footer-col-first{
+  margin-right: 80px;
+  margin-left: 60px;
+  
+}
+.footer-col-first p{
+  font-size: 14px;
+  font-family:Outfit;
+  
+  color: #010425;
+  
+}
+ .year{
+  margin-top: 10px;
+}
+.footer-col-second{
+  margin-right: 80px;
+  margin-left: 170px;
+  
+}
+.footer-col-second p{
+  font-size: 14px;
+  font-family:Outfit;
+  
+  color: #010425;
+}
+.contacts{
+  font-family: Outfit;
+  margin-top: 8px;
+  line-height: 26px;
+}
+.mail-id{
+  font-weight: bold;
+  font-size: 14px;
+}
+.footer-col-third{
+  margin-left: 40px;
+}
+.footer-col-third p{
+  font-size: 14px;
+  font-family:Outfit;
+  
+  color: #010425;
+}
+.annual-return{
+  font-weight: bold;
+  line-height: 30px;
+}
+.social-media{
+  margin-top: 10px;
+}
+.social-media-icons img{
+  width: 26px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
