@@ -1,0 +1,48 @@
+header{
+  
+  width: 100%;
+  
+  position: absolute;
+}
+
+nav{
+  width: 80%;
+  display: flex;
+  font-weight: 200;
+  background:transparent;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 17px 0px;
+  color: white;
+
+}
+
+nav .nav-element a{
+  color: white;
+  font-size: 12px;
+  
+  letter-spacing: 0.6px;
+}
+
+nav .nav-element{
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+.nav-right{
+  display: flex;
+  margin-right: 40px;
+}
+nav .nav-right .nav-element a{
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px;
+
+}

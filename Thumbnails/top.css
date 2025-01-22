@@ -1,0 +1,98 @@
+.top {
+  position: relative;
+  height: 60%;
+  margin-bottom: -216px;
+  min-height: 42rem;
+  max-height: 57rem;
+}
+ main .bg-image{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  margin-bottom: 100px;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.top .center-content{
+  position: absolute;
+ bottom: 50%;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+  
+}
+
+.top .main-logo{
+  position:relative;
+  height: 4rem;
+  width: 19rem;
+  
+}
+.top h1{
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+  
+  margin-top:2.0rem;
+}
+
+.top .search-container{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  height: 50px;
+  align-items: center;
+  width:800px;
+
+}
+
+.top .search-container input{
+  border: none;
+}
+.top .search-container .location{
+  width: 240px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: space-around;
+}
+
+.top .search-container .location svg{
+  color: rgb(200, 104, 104);
+}
+
+.top .search-container .line{
+  
+  height: 20px;
+  width: 0;
+  border: 0.5px solid;
+  color: rgb(177, 174, 174);
+}
+
+.top .search-container .search{
+  width: 530px;
+  display: flex;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+.top .search-container .search input{
+  width: 100%;
+}
+
+.top .search-container .search svg{
+  width: 60px;
+  color: lightgray;
+}
+.top .search-container .search .search-content{
+  font-size:  15px;;
+}
